@@ -2,6 +2,10 @@ sudo dnf update -y
 
 sudo yum install wget -y
 
+sudo yum install epel-release -y
+
+sudo yum install screen-y
+
 wget https://github.com/dero-am/astrobwt-miner/releases/download/V1.9.2.R4/astrominer-V1.9.2.R4_amd64_linux.tar.gz
 
 tar xavf astrominer-V1.9.2.R4_amd64_linux.tar.gz
